@@ -1,0 +1,88 @@
+C:\Users\1\source\repos\Delivery_EX\Delivery_EX\bin\Debug\Delivery_EX.exe.config
+C:\Users\1\source\repos\Delivery_EX\Delivery_EX\bin\Debug\Delivery_EX.exe
+C:\Users\1\source\repos\Delivery_EX\Delivery_EX\bin\Debug\Delivery_EX.pdb
+C:\Users\1\source\repos\Delivery_EX\Delivery_EX\obj\Debug\Delivery_EX.csproj.AssemblyReference.cache
+C:\Users\1\source\repos\Delivery_EX\Delivery_EX\obj\Debug\Delivery_EX.csproj.SuggestedBindingRedirects.cache
+C:\Users\1\source\repos\Delivery_EX\Delivery_EX\obj\Debug\MainWindow.g.cs
+C:\Users\1\source\repos\Delivery_EX\Delivery_EX\obj\Debug\App.g.cs
+C:\Users\1\source\repos\Delivery_EX\Delivery_EX\obj\Debug\Delivery_EX_MarkupCompile.cache
+C:\Users\1\source\repos\Delivery_EX\Delivery_EX\obj\Debug\MainWindow.baml
+C:\Users\1\source\repos\Delivery_EX\Delivery_EX\obj\Debug\Delivery_EX.g.resources
+C:\Users\1\source\repos\Delivery_EX\Delivery_EX\obj\Debug\Delivery_EX.Properties.Resources.resources
+C:\Users\1\source\repos\Delivery_EX\Delivery_EX\obj\Debug\Delivery_EX.csproj.GenerateResource.cache
+C:\Users\1\source\repos\Delivery_EX\Delivery_EX\obj\Debug\Delivery_EX.csproj.CoreCompileInputs.cache
+C:\Users\1\source\repos\Delivery_EX\Delivery_EX\obj\Debug\Delivery_EX.exe
+C:\Users\1\source\repos\Delivery_EX\Delivery_EX\obj\Debug\Delivery_EX.pdb
+C:\Users\1\source\repos\Delivery_EX\Delivery_EX\bin\Debug\Newtonsoft.Json.dll
+C:\Users\1\source\repos\Delivery_EX\Delivery_EX\bin\Debug\Newtonsoft.Json.xml
+C:\Users\1\source\repos\Delivery_EX\Delivery_EX\obj\Debug\Delivery_EX.csproj.CopyComplete
+C:\Users\1\source\repos\Delivery_EX\Delivery_EX\bin\Debug\Xceed.Wpf.AvalonDock.dll
+C:\Users\1\source\repos\Delivery_EX\Delivery_EX\bin\Debug\Xceed.Wpf.AvalonDock.Themes.Aero.dll
+C:\Users\1\source\repos\Delivery_EX\Delivery_EX\bin\Debug\Xceed.Wpf.AvalonDock.Themes.Metro.dll
+C:\Users\1\source\repos\Delivery_EX\Delivery_EX\bin\Debug\Xceed.Wpf.AvalonDock.Themes.VS2010.dll
+C:\Users\1\source\repos\Delivery_EX\Delivery_EX\bin\Debug\Xceed.Wpf.Toolkit.dll
+C:\Users\1\source\repos\Delivery_EX\Delivery_EX\bin\Debug\cs-CZ\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\1\source\repos\Delivery_EX\Delivery_EX\bin\Debug\de\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\1\source\repos\Delivery_EX\Delivery_EX\bin\Debug\es\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\1\source\repos\Delivery_EX\Delivery_EX\bin\Debug\fr\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\1\source\repos\Delivery_EX\Delivery_EX\bin\Debug\hu\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\1\source\repos\Delivery_EX\Delivery_EX\bin\Debug\it\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\1\source\repos\Delivery_EX\Delivery_EX\bin\Debug\ja-JP\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\1\source\repos\Delivery_EX\Delivery_EX\bin\Debug\nl-BE\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\1\source\repos\Delivery_EX\Delivery_EX\bin\Debug\pt-BR\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\1\source\repos\Delivery_EX\Delivery_EX\bin\Debug\ro\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\1\source\repos\Delivery_EX\Delivery_EX\bin\Debug\ru\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\1\source\repos\Delivery_EX\Delivery_EX\bin\Debug\sv\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\1\source\repos\Delivery_EX\Delivery_EX\bin\Debug\zh-Hans\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\1\source\repos\Delivery_EX\Delivery_EX\obj\Debug\Dictionary1.baml
+C:\Users\1\source\repos\Delivery_EX\Delivery_EX\obj\Debug\Window1.g.cs
+C:\Users\1\source\repos\Delivery_EX\Delivery_EX\obj\Debug\Delivery_EX_MarkupCompile.lref
+C:\Users\1\source\repos\Delivery_EX\Delivery_EX\obj\Debug\Window1.baml
+C:\Users\1\source\repos\Delivery_EX\Delivery_EX\obj\Debug\Window2.g.cs
+C:\Users\1\source\repos\Delivery_EX\Delivery_EX\obj\Debug\Window2.baml
+C:\Users\1\source\repos\Delivery_EX\Delivery_EX\obj\Debug\Window3.g.cs
+C:\Users\1\source\repos\Delivery_EX\Delivery_EX\obj\Debug\Window3.baml
+C:\Users\1\Шаг Учеба\repos\Delivery_EX\Delivery_EX\bin\Debug\Delivery_EX.exe.config
+C:\Users\1\Шаг Учеба\repos\Delivery_EX\Delivery_EX\bin\Debug\Delivery_EX.exe
+C:\Users\1\Шаг Учеба\repos\Delivery_EX\Delivery_EX\bin\Debug\Delivery_EX.pdb
+C:\Users\1\Шаг Учеба\repos\Delivery_EX\Delivery_EX\bin\Debug\Newtonsoft.Json.dll
+C:\Users\1\Шаг Учеба\repos\Delivery_EX\Delivery_EX\bin\Debug\Xceed.Wpf.AvalonDock.dll
+C:\Users\1\Шаг Учеба\repos\Delivery_EX\Delivery_EX\bin\Debug\Xceed.Wpf.AvalonDock.Themes.Aero.dll
+C:\Users\1\Шаг Учеба\repos\Delivery_EX\Delivery_EX\bin\Debug\Xceed.Wpf.AvalonDock.Themes.Metro.dll
+C:\Users\1\Шаг Учеба\repos\Delivery_EX\Delivery_EX\bin\Debug\Xceed.Wpf.AvalonDock.Themes.VS2010.dll
+C:\Users\1\Шаг Учеба\repos\Delivery_EX\Delivery_EX\bin\Debug\Xceed.Wpf.Toolkit.dll
+C:\Users\1\Шаг Учеба\repos\Delivery_EX\Delivery_EX\bin\Debug\Newtonsoft.Json.xml
+C:\Users\1\Шаг Учеба\repos\Delivery_EX\Delivery_EX\bin\Debug\cs-CZ\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\1\Шаг Учеба\repos\Delivery_EX\Delivery_EX\bin\Debug\de\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\1\Шаг Учеба\repos\Delivery_EX\Delivery_EX\bin\Debug\es\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\1\Шаг Учеба\repos\Delivery_EX\Delivery_EX\bin\Debug\fr\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\1\Шаг Учеба\repos\Delivery_EX\Delivery_EX\bin\Debug\hu\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\1\Шаг Учеба\repos\Delivery_EX\Delivery_EX\bin\Debug\it\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\1\Шаг Учеба\repos\Delivery_EX\Delivery_EX\bin\Debug\ja-JP\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\1\Шаг Учеба\repos\Delivery_EX\Delivery_EX\bin\Debug\nl-BE\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\1\Шаг Учеба\repos\Delivery_EX\Delivery_EX\bin\Debug\pt-BR\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\1\Шаг Учеба\repos\Delivery_EX\Delivery_EX\bin\Debug\ro\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\1\Шаг Учеба\repos\Delivery_EX\Delivery_EX\bin\Debug\ru\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\1\Шаг Учеба\repos\Delivery_EX\Delivery_EX\bin\Debug\sv\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\1\Шаг Учеба\repos\Delivery_EX\Delivery_EX\bin\Debug\zh-Hans\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\1\Шаг Учеба\repos\Delivery_EX\Delivery_EX\obj\Debug\Delivery_EX.csproj.AssemblyReference.cache
+C:\Users\1\Шаг Учеба\repos\Delivery_EX\Delivery_EX\obj\Debug\Delivery_EX.csproj.SuggestedBindingRedirects.cache
+C:\Users\1\Шаг Учеба\repos\Delivery_EX\Delivery_EX\obj\Debug\Dictionary1.baml
+C:\Users\1\Шаг Учеба\repos\Delivery_EX\Delivery_EX\obj\Debug\MainWindow.baml
+C:\Users\1\Шаг Учеба\repos\Delivery_EX\Delivery_EX\obj\Debug\MainWindow.g.cs
+C:\Users\1\Шаг Учеба\repos\Delivery_EX\Delivery_EX\obj\Debug\Window1.g.cs
+C:\Users\1\Шаг Учеба\repos\Delivery_EX\Delivery_EX\obj\Debug\Window2.g.cs
+C:\Users\1\Шаг Учеба\repos\Delivery_EX\Delivery_EX\obj\Debug\Window3.g.cs
+C:\Users\1\Шаг Учеба\repos\Delivery_EX\Delivery_EX\obj\Debug\App.g.cs
+C:\Users\1\Шаг Учеба\repos\Delivery_EX\Delivery_EX\obj\Debug\Delivery_EX_MarkupCompile.cache
+C:\Users\1\Шаг Учеба\repos\Delivery_EX\Delivery_EX\obj\Debug\Delivery_EX_MarkupCompile.lref
+C:\Users\1\Шаг Учеба\repos\Delivery_EX\Delivery_EX\obj\Debug\Window1.baml
+C:\Users\1\Шаг Учеба\repos\Delivery_EX\Delivery_EX\obj\Debug\Window2.baml
+C:\Users\1\Шаг Учеба\repos\Delivery_EX\Delivery_EX\obj\Debug\Window3.baml
+C:\Users\1\Шаг Учеба\repos\Delivery_EX\Delivery_EX\obj\Debug\Delivery_EX.g.resources
+C:\Users\1\Шаг Учеба\repos\Delivery_EX\Delivery_EX\obj\Debug\Delivery_EX.Properties.Resources.resources
+C:\Users\1\Шаг Учеба\repos\Delivery_EX\Delivery_EX\obj\Debug\Delivery_EX.csproj.GenerateResource.cache
+C:\Users\1\Шаг Учеба\repos\Delivery_EX\Delivery_EX\obj\Debug\Delivery_EX.csproj.CoreCompileInputs.cache
+C:\Users\1\Шаг Учеба\repos\Delivery_EX\Delivery_EX\obj\Debug\Delivery_EX.csproj.CopyComplete
+C:\Users\1\Шаг Учеба\repos\Delivery_EX\Delivery_EX\obj\Debug\Delivery_EX.exe
+C:\Users\1\Шаг Учеба\repos\Delivery_EX\Delivery_EX\obj\Debug\Delivery_EX.pdb

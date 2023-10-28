@@ -1,0 +1,236 @@
+﻿<Window x:Class="Delivery_EX.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:xctk="http://schemas.xceed.com/wpf/xaml/toolkit"
+        mc:Ignorable="d"
+        Title="RKM" Height="500" Width="800" Closing="Window_Closing" MinHeight="500">
+
+    <Window.Resources>
+        <ResourceDictionary>
+            <ResourceDictionary.MergedDictionaries>
+                
+                <ResourceDictionary Source="Dictionary1.xaml"/>
+
+            </ResourceDictionary.MergedDictionaries>
+        </ResourceDictionary>
+    </Window.Resources>
+
+    <Window.Icon>
+        <ImageSource>./images/Icon.png</ImageSource>
+    </Window.Icon>
+    
+    
+    <Grid Background="#FFFFFF">
+        
+        <Grid.RowDefinitions>
+            <RowDefinition></RowDefinition>
+            <RowDefinition Height="5*"></RowDefinition>
+        </Grid.RowDefinitions>
+
+        <Grid Background="#007BFF" Grid.Row="0"></Grid>
+
+        <Label Style="{StaticResource CustomLabelStyle}"> RKM</Label>
+
+        <TabControl Style="{StaticResource CustomTabControlStyle}" Grid.Row="1" RenderTransformOrigin="0.5,0.5" Margin="0 -20 0 0">
+
+            <TabItem Header="Отследить посылку" Style="{StaticResource CustomTabItemStyle}">
+                <Grid Margin="50 0 50 0">
+                    <Grid>
+                        <Image Source="./images/background.jpg" Stretch="Fill" Opacity="0.5"/>
+                        
+                        <Border Width="400" Height="150" Background="White" CornerRadius="20">
+                            
+                            <StackPanel Margin="0 20 0 20">
+                                <Label FontSize="23" HorizontalAlignment="Center">Отслеживание доставки</Label>
+                                
+                                <StackPanel Orientation="Horizontal" Margin="0 20 0 20" HorizontalAlignment ="Center" >
+                                    <TextBox FontSize="14"  Name="searchTextBox" HorizontalAlignment="Center" VerticalAlignment="Center" Height="30" Width="200" PreviewTextInput="numericTextBox_PreviewTextInput" TextChanged="numericTextBox_TextChanged"></TextBox>
+                                    <Border  Name = "searchButton"  Height="30" Style = "{StaticResource CustomBorderStyle}" Width="70" MouseDown="searchButton_MouseDown_1">
+                                        <Label  HorizontalAlignment="Center" VerticalAlignment="Center">Отследить</Label>
+                                    </Border>
+                                </StackPanel>
+                            </StackPanel>
+                        </Border>
+                    </Grid>
+                </Grid>
+            </TabItem>
+
+            <TabItem Header="Расчитать доставку" Style="{StaticResource CustomTabItemStyle}">
+
+                <Grid Margin="50 0 50 0">
+                    
+                    <Image Source="./images/background5.jpg" Stretch="Fill" Opacity="0.5"/>
+                    
+                    <StackPanel Orientation="Vertical" Margin="20">
+                        
+                        <StackPanel Orientation="Horizontal">
+                            <Label Width="120">Откуда</Label>
+                            <TextBox Name="fromСalculationTextBox" Width="200" PreviewTextInput="letterTextBox_PreviewTextInput"></TextBox>
+                        </StackPanel>
+
+                        <StackPanel Orientation="Horizontal">
+                            <Label Width="120">Kуда</Label>
+                            <TextBox Name="toСalculationTextBox" Width="200" PreviewTextInput="letterTextBox_PreviewTextInput"></TextBox>
+                        </StackPanel>
+
+                        <StackPanel Orientation="Horizontal">
+
+                            <StackPanel Orientation="Vertical">
+                                <Label HorizontalAlignment="Center" VerticalAlignment="Center">Длина</Label>
+                                <TextBox Name = "lengthСalculationTextBox"  Width="150" HorizontalAlignment="Center" VerticalAlignment="Center" PreviewTextInput="numericTextBox_PreviewTextInput" ></TextBox>
+                            </StackPanel>
+
+                            <StackPanel Orientation="Vertical">
+                                <Label HorizontalAlignment="Center" VerticalAlignment="Center">Ширина</Label>
+                                <TextBox Name = "widthСalculationTextBox" Width="150" HorizontalAlignment="Center" VerticalAlignment="Center" PreviewTextInput="numericTextBox_PreviewTextInput" ></TextBox>
+                            </StackPanel>
+
+                            <StackPanel Orientation="Vertical">
+                                <Label HorizontalAlignment="Center" VerticalAlignment="Center">Высота</Label>
+                                <TextBox Name = "heightСalculationTextBox"  Width="150" HorizontalAlignment="Center" VerticalAlignment="Center" PreviewTextInput="numericTextBox_PreviewTextInput" ></TextBox>
+                            </StackPanel>
+
+                            <StackPanel Orientation="Vertical">
+                                <Label HorizontalAlignment="Center" VerticalAlignment="Center">Вес</Label>
+                                <TextBox Name="weightСalculationTextBox" Width="150" HorizontalAlignment="Center" VerticalAlignment="Center" PreviewTextInput="numericTextBox_PreviewTextInput"></TextBox>
+                            </StackPanel>
+
+                        </StackPanel>
+
+                        <Border Margin="15" Name="calculationBorder" Style = "{StaticResource CustomBorderStyle}" HorizontalAlignment="Center" Height="50" Width="200" CornerRadius="20" MouseDown="calculationBorder_MouseDown" >
+                            <Label HorizontalAlignment="Center" VerticalAlignment="Center">Расчитать</Label>
+                        </Border>
+
+                    </StackPanel>
+                </Grid>
+            </TabItem>
+
+        <TabItem Name="tabItem1" Header="Оформить посылку" Style="{StaticResource CustomTabItemStyle}">
+                <Grid Margin="50 0 50 0">
+                    <Image Source="./images/background2.jpg" Stretch="Fill" Opacity="0.5"/>
+
+                    <Grid Name="createPackageGrid">
+                        <StackPanel>
+                            <Grid Margin="20">
+                                <StackPanel>
+                                    
+                                    <StackPanel Orientation="Horizontal">
+                                        <Label Width="120">Фамилия</Label>
+                                        <TextBox  Name="lastnameTextBox" Width="300"  VerticalAlignment="Center" PreviewTextInput="letterTextBox_PreviewTextInput"/>
+                                    </StackPanel>
+
+                                    <StackPanel Orientation="Horizontal">
+                                        <Label Width="120" >Имя</Label>
+                                        <TextBox Name="nameTextBox" Width="300" VerticalAlignment="Center" PreviewTextInput="letterTextBox_PreviewTextInput"></TextBox>
+                                    </StackPanel>
+
+                                    <StackPanel Orientation="Horizontal">
+                                        <Label   Width="120">Отчество</Label>
+                                        <TextBox Name="surnameTextBox" Width="300"  VerticalAlignment="Center" PreviewTextInput="letterTextBox_PreviewTextInput"></TextBox>
+                                    </StackPanel>
+
+                                    <StackPanel Orientation="Horizontal">
+                                        <Label  Width="120" VerticalAlignment="Center">Номер телефона</Label>
+                                        <xctk:MaskedTextBox Name="mobNumTextBox" Width="300" VerticalAlignment="Center" Mask="+380 99-99-99-999" PreviewMouseDown="mobNumTextBox_PreviewMouseDown"></xctk:MaskedTextBox>
+                                    </StackPanel>
+                                    
+                                </StackPanel>
+                            </Grid>
+
+                            <Grid Margin="20">
+                                <StackPanel>
+                                    <StackPanel Orientation="Horizontal">
+                                        <Label  Width="120" VerticalAlignment="Center">Откуда</Label>
+                                        <TextBox Name ="fromTextBox" Width="300" VerticalAlignment="Center" PreviewTextInput="letterTextBox_PreviewTextInput"></TextBox>
+                                    </StackPanel>
+
+                                    <StackPanel Orientation="Horizontal">
+                                        <Label  Width="120" VerticalAlignment="Center">Куда</Label>
+                                        <TextBox  Name ="toTextBox" Width="300" VerticalAlignment="Center" PreviewTextInput="letterTextBox_PreviewTextInput"></TextBox>
+                                    </StackPanel>
+                                </StackPanel>
+                            </Grid>
+
+                            <Grid Margin="20">
+
+                                <StackPanel Orientation="Horizontal">
+
+                                    <StackPanel Orientation="Vertical">
+                                        <Label HorizontalAlignment="Center" VerticalAlignment="Center">Длина</Label>
+                                        <TextBox Name = "lengthTextBox"  Width="150" HorizontalAlignment="Center" VerticalAlignment="Center" PreviewTextInput="numericTextBox_PreviewTextInput" ></TextBox>
+                                    </StackPanel>
+
+                                    <StackPanel Grid.Column="1" Orientation="Vertical">
+                                        <Label HorizontalAlignment="Center" VerticalAlignment="Center">Ширина</Label>
+                                        <TextBox Name = "widthTextBox" Width="150" HorizontalAlignment="Center" VerticalAlignment="Center" PreviewTextInput="numericTextBox_PreviewTextInput" ></TextBox>
+                                    </StackPanel>
+
+                                    <StackPanel   Grid.Column="2" Orientation="Vertical">
+                                        <Label HorizontalAlignment="Center" VerticalAlignment="Center">Высота</Label>
+                                        <TextBox Name = "heightTextBox"  Width="150" HorizontalAlignment="Center" VerticalAlignment="Center" PreviewTextInput="numericTextBox_PreviewTextInput"></TextBox>
+                                    </StackPanel>
+
+                                    <StackPanel  Grid.Column="3" Orientation="Vertical">
+                                        <Label HorizontalAlignment="Center" VerticalAlignment="Center">Вес</Label>
+                                        <TextBox Name="weightTextBox" Width="150" HorizontalAlignment="Center" VerticalAlignment="Center" PreviewTextInput="numericTextBox_PreviewTextInput"></TextBox>
+                                    </StackPanel>
+
+                                </StackPanel>
+                            </Grid>
+
+                            <Border Name ="createRecordBorder"  Style = "{StaticResource CustomBorderStyle}" Width="150" Height="50" CornerRadius="20" MouseDown="createRecordBorder_MouseDown">
+                                <Label VerticalAlignment="Center" HorizontalAlignment="Center" >Создать</Label>
+                            </Border>
+                        </StackPanel>
+                    </Grid>
+                </Grid>
+                
+            </TabItem>
+
+            <TabItem Header="Отдать посылку" Style="{StaticResource CustomTabItemStyle}" HorizontalAlignment="Right" Width="109">
+                <Grid Margin="50 0 50 0">
+                    <Image Source="./images/background3.jpg" Stretch="Fill" Opacity="0.5"/>
+                    <Border Background="White" Height="150" Width="400"  CornerRadius="20">
+                        <Grid>
+
+                            <Label HorizontalAlignment="Center" FontSize="25">Отдать посылку</Label>
+                            
+                            <StackPanel Orientation="Horizontal" HorizontalAlignment ="Center">
+                            <TextBox FontSize="14" Name="giveTextBox" HorizontalAlignment="Center" VerticalAlignment="Center" Height="30" Width="200" PreviewTextInput="numericTextBox_PreviewTextInput" TextChanged="numericTextBox_TextChanged" ></TextBox>
+                                <Border Name = "giveAwayButton" Height="30" Width="70" Style = "{StaticResource CustomBorderStyle}" MouseDown="giveAwayButton_Click">
+                                <Label HorizontalAlignment="Center" VerticalAlignment="Center" Content="Отдать"></Label>
+                            </Border>
+                        </StackPanel>
+                        </Grid>
+                    </Border>
+                </Grid>
+            </TabItem>
+            <TabItem Header="Посмотреть базу данных" Style="{StaticResource CustomTabItemStyle}">
+                <Grid Margin="50 0 50 0">
+                    <Image Source="./images/background4.jpg" Stretch="Fill" Opacity="0.5"/>
+                    <Grid>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition></ColumnDefinition>
+                            <ColumnDefinition Width="3*"></ColumnDefinition>
+                        </Grid.ColumnDefinitions>
+
+                        <Border HorizontalAlignment="Left" VerticalAlignment="Top"  Style = "{StaticResource CustomBorderStyle}" CornerRadius="20" Margin="5" Height="70" Width="140" MouseDown="Border_MouseDown">
+                            <Label HorizontalAlignment="Center" VerticalAlignment="Center" >Посмотреть</Label>
+                        </Border>
+
+                        <ListBox Name="listBox" Grid.Column="1" Margin="5">
+
+                        </ListBox>
+
+                    </Grid>
+                </Grid>
+            </TabItem>
+
+
+        </TabControl>
+
+       
+    </Grid>
+</Window>
